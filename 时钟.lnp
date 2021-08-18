@@ -1,0 +1,8 @@
+"common.obj",
+"clock.obj",
+"digital.obj",
+"DS1302.obj",
+"DS18B20.obj",
+"simpleKeyboard.obj" 
+TO " ±÷”" 
+RAMSIZE(256) 

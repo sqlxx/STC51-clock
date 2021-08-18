@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\projects\MCU\时钟\时钟.uvproj
+Project File Date:  02/15/2012
+
+<h2>Output:</h2>
+Build Project '时钟' - Target '时钟'
+compiling common.c...
+compiling clock.c...
+F:\projects\MCU\时钟\clock.c(101): warning C206: 'keySacn': missing function-prototype
+compiling digital.c...
+compiling DS1302.c...
+compiling DS18B20.c...
+compiling simpleKeyboard.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYMS?COMMON
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LED_DISABLE?DIGITAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_READSEC?DS1302
+Program Size: data=49.4 xdata=0 code=1601
+creating hex file from "时钟"...
+"时钟" - 0 Error(s), 4 Warning(s).
